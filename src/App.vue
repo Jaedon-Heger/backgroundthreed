@@ -1,5 +1,8 @@
 <template>
-  <BackgroundThreeD msg="Welcome to Your Vue.js App" />
+  <BackgroundThreeD
+    object-path="deer.gltf"
+    :object-position="[0, -1.5, -1.5]"
+  />
 </template>
 
 <script>
